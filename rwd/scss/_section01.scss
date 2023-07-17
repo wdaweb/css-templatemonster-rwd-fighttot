@@ -1,0 +1,120 @@
+#section01 {
+  background: url('../image/home-img1.jpg') no-repeat center/cover;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 10px;
+  font-weight: bolder;
+
+  .ironmass {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .mdp {
+    margin-top: 3%;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    display: none;
+  }
+
+  .line {
+    height: 6px;
+    width: 135px;
+    background-color: $primari;
+    margin-bottom: 30px;
+  }
+
+
+  span {
+    display: flex;
+    margin-top: 10px;
+
+    p {
+      margin: 0;
+      font-size: 45px;
+    }
+
+    p:nth-child(1) {
+      color: $primari;
+    }
+
+  }
+
+  input {
+    display: inline-block;
+    border: none;
+    color: white;
+    background-color: $primari;
+    // height: 50px;
+    font-weight: bolder;
+    padding: 15px 20px;
+    margin-top: 3%;
+
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+
+  @include md {
+    padding: 60px 10px;
+
+    .mdbr {
+      display: block;
+    }
+
+    .lgbr {
+      display: none;
+    }
+
+    .mdp {
+      display: block;
+    }
+
+    .ironmass {
+      font-size: 30px;
+    }
+
+    .mdp {
+      font-size: 20px;
+    }
+
+    span {
+      margin: 0;
+
+      p {
+        font-size: 70px;
+      }
+    }
+  }
+
+  @include lg {
+    padding: 200px 10px;
+
+    .mdbr {
+      display: none;
+    }
+
+    .lgbr {
+      display: block;
+    }
+
+    .ironmass {
+      font-size: 40px;
+    }
+
+    span {
+      margin: 0;
+
+      p {
+        font-size: 110px;
+      }
+    }
+  }
+}

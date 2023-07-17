@@ -1,0 +1,90 @@
+#section02 {
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+
+  .row {
+    margin: 0;
+  }
+
+  .box1 {
+    height: 29px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .box2 {
+    height: 31px;
+  }
+
+  .card:nth-child(1) {
+    background: url('../image/home-programs-img1.jpg') no-repeat center/cover;
+  }
+
+  .card:nth-child(2) {
+    background: url('../image/home-programs-img2.jpg') no-repeat center/cover;
+  }
+
+  .card:nth-child(3) {
+    background: url('../image/home-programs-img3.jpg') no-repeat center/cover;
+  }
+
+  .card:nth-child(4) {
+    background: url('../image/home-programs-img4.webp') no-repeat center/cover;
+  }
+
+  .bas {
+    height: 424px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .card {
+    padding: 30px 0;
+    border-top: 6px solid transparent;
+
+    a {
+      font-weight: bolder;
+      font-size: 14px;
+      color: white;
+      // display: block;
+      border: 2px solid white;
+      padding: 10px 20px;
+      text-decoration: none;
+
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+
+    &:hover {
+      border-top: 6px solid $primari;
+    }
+  }
+
+  .line {
+    height: 6px;
+    width: 135px;
+    background-color: $primari;
+    margin: auto;
+  }
+
+  @include md {
+    padding: 70px 0;
+
+    .bas {
+      height: 340px;
+    }
+
+  }
+
+  @include lg {
+    padding: 91px 0;
+
+
+    .bas {
+      height: 544px;
+    }
+  }
+}

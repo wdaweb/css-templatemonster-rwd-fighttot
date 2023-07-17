@@ -1,0 +1,96 @@
+#section05 {
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+
+  .line {
+    height: 6px;
+    width: 135px;
+    background-color: $primari;
+    margin: auto;
+  }
+
+  a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 20px 10px;
+
+    &:hover {
+      color: $primari;
+    }
+  }
+
+
+  .bor {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  input {
+    padding: 13px 27px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: $primari;
+    border: 0;
+
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+
+  .row {
+    margin: auto;
+  }
+
+  .box1 {
+    height: 29px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .box2 {
+    height: 31px;
+  }
+
+  .card {
+    padding: 55px 45px 30px 45px;
+  }
+
+  .card:nth-child(1) {
+    background: url('../image/608242-1280x510.jpg') no-repeat center;
+  }
+
+  .card:nth-child(2) {
+    background: url('../image/cbb95225112f706b8f59fbf60fe30839_large-1280x510.jpg') no-repeat center;
+  }
+
+  .card:nth-child(3) {
+    background: url('../image/fitness-gym-girl-barbell-J769-1280x510.jpg') no-repeat center;
+  }
+
+  @include md {
+    padding: 83px 0;
+
+    .row {
+      width: 95%;
+    }
+
+    .card {
+      padding: 110px 85px 90px 85px;
+    }
+  }
+
+  @include lg {
+    .row {
+      width: 88%;
+    }
+
+    .card {
+      padding: 110px 85px 90px 85px;
+    }
+  }
+}

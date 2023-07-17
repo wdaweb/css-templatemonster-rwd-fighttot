@@ -1,0 +1,18 @@
+#gotop {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+
+  a {
+    text-decoration: none;
+    color: azure;
+  }
+
+  &:hover {
+    background-color: $primari;
+  }
+
+
+}

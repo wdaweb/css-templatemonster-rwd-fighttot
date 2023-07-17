@@ -1,0 +1,86 @@
+#section06 {
+  width: 100%;
+  padding: 40px 0;
+
+  .bg {
+    background: url('../image/home-testimonials-img.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+
+  .line {
+    height: 6px;
+    width: 150px;
+    background-color: $primari;
+    margin: auto;
+  }
+
+  .box1 {
+    height: 29px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .box2 {
+    height: 31px;
+  }
+
+  .boxmain {
+    width: 90%;
+    margin: auto;
+    padding: 90px 0 10px 0;
+  }
+
+  span {
+    display: inline-block;
+    color: $primari;
+    margin-top: 30px;
+    font-weight: bolder;
+  }
+
+
+  @include md {
+    padding: 70px 0;
+
+
+    .boxmain {
+      padding: 150px 0 10px 0;
+    }
+
+
+    span {
+      margin-top: 10px;
+      margin-bottom: 90px;
+    }
+
+    p {
+      line-height: 1.5rem;
+    }
+
+  }
+
+
+  @include lg {
+    padding: 100px 0;
+
+    .boxmain {
+      width: 50%;
+    }
+
+    .boxtwo {
+      height: 285px;
+      width: 50%;
+    }
+
+    span {
+      font-size: 25px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 25px;
+    }
+
+  }
+}
