@@ -43,17 +43,6 @@
     object-fit: cover;
   }
 
-  .swiper-slide:nth-child(1) {
-    background: url('../image/llg1.jpg') no-repeat center/cover;
-  }
-
-  .swiper-slide:nth-child(2) {
-    background: url('../image/llg2.jpg') no-repeat center/cover;
-  }
-
-  .swiper-slide:nth-child(3) {
-    background: url('../image/llg3.jpg') no-repeat center/cover;
-  }
 
   .mySwiper {
     &:hover {

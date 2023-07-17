@@ -353,15 +353,6 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-#section04 .swiper-slide:nth-child(1) {
-  background: url("../image/llg1.jpg") no-repeat center/cover;
-}
-#section04 .swiper-slide:nth-child(2) {
-  background: url("../image/llg2.jpg") no-repeat center/cover;
-}
-#section04 .swiper-slide:nth-child(3) {
-  background: url("../image/llg3.jpg") no-repeat center/cover;
-}
 #section04 .mySwiper:hover .swiper-button-next {
   opacity: 1;
 }
